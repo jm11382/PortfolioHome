@@ -133,14 +133,14 @@ header {
 
 /* Case Study Img Start -----------------------------------------------------------------------------------------------------------------------------*/
 .caseStudyImgDiv{
-    display: flex;
-    width: 100%;
-    height: auto;
+    display: flex !important; 
+    width: 100% !important;
+    height: auto !important;
 }
 
 .caseStudyImg{
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
 }
 
 /* Case Study Img End -------------------------------------------------------------------------------------------------------------------------------*/
