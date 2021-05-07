@@ -87,6 +87,17 @@ header {
     opacity: 0.4;
 }
 
+.caseStudyImgDiv{
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.caseStudyImg{
+    width: 100% !important;
+    height: auto !important;
+}
+
 
 
 
