@@ -17,10 +17,9 @@ body {
 /* Header Start */
 header {
     display: flex;
-    position: absolute;
     width: 100%;
     height: 84px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
 }
@@ -131,6 +130,20 @@ header {
     opacity: 0.4;
 }
 /* Header End */
+
+/* Case Study Img Start -----------------------------------------------------------------------------------------------------------------------------*/
+.caseStudyImgDiv{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.caseStudyImg{
+    width: 100%;
+    height: auto;
+}
+
+/* Case Study Img End -------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Body Start*/
 .jumbotron {
