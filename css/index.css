@@ -109,20 +109,11 @@ header {
 }
 
 .navlogo {
-    display: flex;
-    justify-content: center;
-    padding-right: 289px;
-    padding-top: 4px;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
-
-@media only screen and (max-width: 840px) {
-    .navlogo{
-        display: flex;
-        justify-content: center;
-        padding-right: 0;
-        padding-left: 0px;
-    }
-  }
 
 .navsocials {
     display: flex;
@@ -154,6 +145,16 @@ header {
     overflow: hidden;
     background: url('../images/heroimg.png') no-repeat center;
     background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    .heroimg {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        background: url('../images/heroimg.png') no-repeat center;
+        background-size: cover;
+    }
 }
 
 .container {
@@ -241,13 +242,13 @@ header {
     padding-bottom: 72px;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1000px) {
     .workGrid{
     grid-template-columns: 430px;
     }
   }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
     .workGrid{
     grid-template-columns: 85%;
     }
@@ -257,13 +258,13 @@ header {
     opacity: 0.4;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
     .gridItem{
     scale: 85%;
     }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
 .workImg{
     width: 100%;
     height: auto;
