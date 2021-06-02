@@ -101,7 +101,7 @@ header {
 
 
 
-.heroimg {
+.heroimg1{
     position: relative;
     height: 400px;
     overflow: hidden;
@@ -109,7 +109,7 @@ header {
     background-size: cover;
 }
 
-.container {
+.container1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -184,7 +184,7 @@ header {
     padding: 16px;
 }
 
-.workGrid{
+.workGrid1{
     display: grid;
     grid-template-columns: 924px;
     background-color: #0B0B0B;
