@@ -103,7 +103,7 @@ header {
 
 .heroimg {
     position: relative;
-    height: 800px;
+    height: 400px;
     overflow: hidden;
     background: url('../images/heroimg.png') no-repeat center;
     background-size: cover;
@@ -112,8 +112,8 @@ header {
 .container {
     position: absolute;
     top: 50%;
-    left: 10%;
-    transform: translate(-10%,-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: left;
     color: white;
     font-weight: 700;
@@ -192,6 +192,7 @@ header {
     grid-row-gap: 24px;
     justify-content: center;
     padding-bottom: 72px;
+    padding-top: 72px;
 }
 
 @media only screen and (max-width: 920px) {
