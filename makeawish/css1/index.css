@@ -19,7 +19,7 @@ header {
     display: flex;
     width: 100%;
     height: 84px;
-    background-color: rgb(0, 0, 0);
+    background-color: #0B0B0B;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,12 +56,12 @@ header {
         flex-direction: column;
         position: absolute;
         left: 0px;
-        height: 100vh;
+        height: 800px;
         width: 100%;
         top: 84px;
         transform: translateX(-100%);
         transition: transform 0.3s ease;
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: #0B0B0B;
         z-index: 9999;
     }
     .navlink{
@@ -93,6 +93,7 @@ header {
     transform: rotate(45deg) translate(-5px,-12px);
     transition: 0.3s ease;
 }
+
 .navlink {
     color: white;
     text-decoration: none;

@@ -23,23 +23,3 @@ const navSlide = () => {
 }
 navSlide();
 // Hamburger Animation End//
-
-var height = $('#jumboScroll').height();
-
-$(window).scroll(function () {
-    if($(this).scrollTop() > height){
-        $('.caseStudyNav').addClass('fixed');
-    }else{
-        $('.caseStudyNav').removeClass('fixed')
-    }
-});
-
-var height = $('#jumboScroll').height();
-
-$(window).scroll(function () {
-    if($(this).scrollTop() > height){
-        $('#overview').addClass('overviewMargin');
-    }else{
-        $('#overview').removeClass('overviewMargin')
-    }
-});
