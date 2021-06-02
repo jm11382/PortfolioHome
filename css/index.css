@@ -186,7 +186,7 @@ header {
 
 .workGrid{
     display: grid;
-    grid-template-columns: 430px 430px;
+    grid-template-columns: 924px;
     background-color: #0B0B0B;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
