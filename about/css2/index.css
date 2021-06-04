@@ -125,46 +125,49 @@ header {
     opacity: 0.4;
 }
 
-.caseStudyImgDiv{
+.aboutImgDiv{
     display: flex !important;
     width: 100% !important;
     height: auto !important;
 }
 
-.caseStudyImg{
+.aboutImg{
     width: 100% !important;
     height: auto !important;
 }
 
+.aboutImg2{
+    display: none;
+}
 
+@media only screen and (max-width: 1440px) {
+    .aboutImg2{
+        display: flex !important;
+        width: 100% !important;
+        height: auto !important;
+    }
 
+    .aboutImg{
+        display: none;
+    }
+}
 
-.heroimg {
+.heroimg1{
     position: relative;
-    height: 800px;
+    height: 400px;
     overflow: hidden;
     background: url('../images/heroimg.png') no-repeat center;
     background-size: cover;
 }
 
-@media only screen and (max-width: 500px) {
-    .heroimg {
-        position: relative;
-        height: 100vh;
-        overflow: hidden;
-        background: url('../images/heroimg.png') no-repeat center;
-        background-size: cover;
-    }
-}
-
-.container {
+.container1 {
     position: absolute;
     top: 50%;
-    left: 10%;
-    transform: translate(-10%,-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: left;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .name1{
@@ -172,42 +175,6 @@ header {
     letter-spacing: auto;
     line-height: 72px;
     font-weight: bold;
-}
-
-.name2{
-    font-size: 96px;
-    letter-spacing: auto;
-    line-height: 72px;
-    font-weight: bold;
-}
-
-.hi{
-    display: inline-block;
-    font-size: 36px;
-    letter-spacing: auto;
-    line-height: 0;
-    font-weight: 100;
-}
-
-.title{
-    display: inline-block;
-    font-size: 40px;
-    letter-spacing: auto;
-    line-height: 36px;
-    font-weight: 100;
-    padding-bottom: 16px;
-}
-
-.btn{
-    color: black;
-    padding: 10px 24px;
-    font-size: 20px;
-    text-decoration: none;
-    background: white;
-    border-radius: 8px;
-}
-.btn:hover{
-    opacity: 0.4;
 }
 
 .myWorkContainer{
