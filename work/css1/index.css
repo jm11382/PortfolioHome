@@ -147,75 +147,27 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: 700;
 }
 
 .name1{
-    font-size: 96px;
+    font-size: 72px;
     letter-spacing: auto;
     line-height: 72px;
     font-weight: bold;
 }
 
-.name2{
-    font-size: 96px;
-    letter-spacing: auto;
-    line-height: 72px;
-    font-weight: bold;
-}
+@media only screen and (max-width: 400px) {
+    .name1{
+        font-size: 48px;
+        letter-spacing: auto;
+        line-height: 48px;
+        font-weight: bold;
+    }
 
-.hi{
-    display: inline-block;
-    font-size: 36px;
-    letter-spacing: auto;
-    line-height: 0;
-    font-weight: 100;
-}
-
-.title{
-    display: inline-block;
-    font-size: 40px;
-    letter-spacing: auto;
-    line-height: 36px;
-    font-weight: 100;
-    padding-bottom: 16px;
-}
-
-.btn{
-    color: black;
-    padding: 10px 24px;
-    font-size: 20px;
-    text-decoration: none;
-    background: white;
-    border-radius: 8px;
-}
-.btn:hover{
-    opacity: 0.4;
-}
-
-.myWorkContainer{
-    display: flex;
-    width: 100%;
-    background-color: #0B0B0B;
-    justify-content: center;
-}
-
-.myWorkDiv{
-    display: flex;
-    padding: 16px;
-}
-
-.myWork{
-    display: flex;
-    color: white;
-    font-size: 36px;
-    letter-spacing: auto;
-    line-height: 0;
-    font-weight: 100;
-    padding: 16px;
-}
+  }
 
 .workGrid1{
     display: grid;
@@ -228,14 +180,14 @@ header {
     padding-top: 72px;
 }
 
-@media only screen and (max-width: 920px) {
-    .workGrid{
+@media only screen and (max-width: 1000px) {
+    .workGrid1{
     grid-template-columns: 430px;
     }
   }
 
-@media only screen and (max-width: 470px) {
-    .workGrid{
+@media only screen and (max-width: 1000px) {
+    .workGrid1{
     grid-template-columns: 85%;
     }
 }
@@ -244,13 +196,13 @@ header {
     opacity: 0.4;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
     .gridItem{
     scale: 85%;
     }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
 .workImg{
     width: 100%;
     height: auto;
