@@ -125,33 +125,6 @@ header {
     opacity: 0.4;
 }
 
-.aboutImgDiv{
-    display: flex !important;
-    width: 100% !important;
-    height: auto !important;
-}
-
-.aboutImg{
-    width: 100% !important;
-    height: auto !important;
-}
-
-.aboutImg2{
-    display: none;
-}
-
-@media only screen and (max-width: 1440px) {
-    .aboutImg2{
-        display: flex !important;
-        width: 100% !important;
-        height: auto !important;
-    }
-
-    .aboutImg{
-        display: none;
-    }
-}
-
 .heroimg1{
     position: relative;
     height: 400px;
@@ -187,64 +160,41 @@ header {
 
   }
 
-.myWorkContainer{
-    display: flex;
-    width: 100%;
-    background-color: #0B0B0B;
-    justify-content: center;
+.aboutImgDiv{
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
 }
 
-.myWorkDiv{
-    display: flex;
-    padding: 16px;
+.aboutImg{
+    width: 100% !important;
+    height: auto !important;
 }
 
-.myWork{
-    display: flex;
-    color: white;
-    font-size: 36px;
-    letter-spacing: auto;
-    line-height: 0;
-    font-weight: 100;
-    padding: 16px;
+.aboutImg2{
+    display: none;
+}
+.aboutImg3{
+    display: none;
 }
 
-.workGrid{
-    display: grid;
-    grid-template-columns: 924px;
-    background-color: #0B0B0B;
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    justify-content: center;
-    padding-bottom: 72px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .workGrid{
-    grid-template-columns: 430px;
+@media only screen and (min-width: 800px) and (max-width: 1440px) {
+    .aboutImg{
+        display: none;
     }
-  }
-
-@media only screen and (max-width: 1000px) {
-    .workGrid{
-    grid-template-columns: 85%;
+    .aboutImg2{
+        display: flex !important;
+        width: 100% !important;
     }
 }
 
-.gridItem:hover{
-    opacity: 0.4;
-}
-
-@media only screen and (max-width: 1000px) {
-    .gridItem{
-    scale: 85%;
+@media only screen and (max-width: 800px) {
+    .aboutImg{
+        display: none;
     }
-}
-
-@media only screen and (max-width: 1000px) {
-.workImg{
-    width: 100%;
-    height: auto;
+    .aboutImg3{
+        display: flex !important;
+        width: 100% !important;
     }
 }
 
