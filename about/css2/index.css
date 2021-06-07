@@ -171,11 +171,21 @@ header {
 }
 
 .name1{
-    font-size: 96px;
+    font-size: 72px;
     letter-spacing: auto;
     line-height: 72px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 400px) {
+    .name1{
+        font-size: 48px;
+        letter-spacing: auto;
+        line-height: 48px;
+        font-weight: bold;
+    }
+
+  }
 
 .myWorkContainer{
     display: flex;
